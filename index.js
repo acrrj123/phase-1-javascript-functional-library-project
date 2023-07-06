@@ -125,7 +125,7 @@ returns the last element of the collection;
 returns the last n elements of the collection when the second optional argument (n) is provided.*/
 
 function myLast(array, n) {
-  if(n == null) {
+  if(n === undefined) {
     return array[array.length - 1] 
   }
   else {
